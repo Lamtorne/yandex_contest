@@ -1,0 +1,25 @@
+node_modules/
+dist/
+playwright-report/
+test-results/
+screenshot-diffs/
+playwright.json
+
+# readonly — изменения этих файлов не пройдут CI
+src/types.ts
+src/projection.ts
+src/fixtures.ts
+src/SpeakerModel.tsx
+src/weave.ts
+src/calloutSource.ts
+style.css
+package.json
+package-lock.json
+vitest.config.ts
+playwright.config.ts
+playwright.shared.ts
+tsconfig.json
+tests/setup.ts
+tests/helpers.ts
+tests/screenshot.ts
+tests/screenshot.css
